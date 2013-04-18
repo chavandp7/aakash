@@ -1,0 +1,34 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+     
+<LinearLayout
+    android:id="@+id/vw1" 
+    android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:orientation="vertical"
+	android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/carea"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/circlearea" 
+        android:layout_gravity="center_vertical|center_horizontal"/>
+       
+     <TextView
+        android:id="@+id/cperimeter"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/circleperimeter" 
+        android:layout_gravity="center_vertical|center_horizontal"/>
+
+  
+</LinearLayout>
+</ScrollView>

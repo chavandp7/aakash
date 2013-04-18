@@ -1,0 +1,140 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TriangleCalculations" >
+
+    
+      <TextView
+	        android:id="@+id/a"
+	        android:layout_width="100dp"
+	        android:layout_height="25dp"
+	        android:layout_marginLeft="35dp"
+	        android:layout_marginTop="14dp"
+	        android:gravity="center"
+	        android:text="@string/a"
+	        android:textSize="15sp" />
+	      
+      <EditText
+	        android:id="@+id/enterA"
+	        android:layout_width="140dp"
+	        android:layout_height="30dp"
+	        android:layout_marginTop="16dp"
+	        android:layout_toRightOf="@+id/a"
+	        android:gravity="center"
+	        android:hint="@string/enterA" 
+	        android:textSize="12sp" />
+	      
+       <TextView
+	        android:id="@+id/b"
+	        android:layout_width="100dp"
+	        android:layout_height="25dp"
+	        android:layout_marginLeft="35dp"
+	        android:layout_marginTop="14dp"
+	        android:gravity="center"
+	        android:layout_below="@+id/a"
+	        android:text="@string/b"
+	        android:textSize="15sp" />
+       
+       <EditText
+	        android:id="@+id/enterB"
+	        android:layout_width="140dp"
+	        android:layout_height="30dp"
+	        android:layout_marginTop="16dp"
+	        android:layout_toRightOf="@+id/b"
+	        android:gravity="center"
+	        android:layout_below="@+id/enterA"
+	        android:hint="@string/enterB" 
+	        android:textSize="12sp" />
+        
+         <TextView
+	        android:id="@+id/c"
+	        android:layout_width="100dp"
+	        android:layout_height="25dp"
+	        android:layout_marginLeft="35dp"
+	        android:layout_marginTop="14dp"
+	        android:gravity="center"
+	        android:layout_below="@+id/b"
+	        android:text="@string/c"
+	        android:textSize="15sp" />
+         
+         <EditText
+	        android:id="@+id/enterC"
+	        android:layout_width="140dp"
+	        android:layout_height="30dp"
+	        android:layout_marginTop="16dp"
+	        android:layout_toRightOf="@+id/c"
+	        android:gravity="center"
+	        android:layout_below="@+id/enterB"
+	        android:hint="@string/enterC" 
+	        android:textSize="12sp" />
+         
+          <TextView
+	        android:id="@+id/perimeter"
+	        android:layout_width="100dp"
+	        android:layout_height="25dp"
+	        android:layout_marginLeft="35dp"
+	        android:layout_marginTop="14dp"
+	        android:gravity="center"
+	        android:layout_below="@+id/c"
+	        android:text="@string/perimeter"
+	        android:textSize="15sp" />
+     
+     
+     <TextView
+        android:id="@+id/perimeterValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:textIsSelectable="true"
+        android:layout_below="@+id/enterC"
+        android:layout_toRightOf="@+id/perimeter"
+        android:textSize="15sp" />
+     
+    <TextView
+        android:id="@+id/area"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:layout_below="@+id/perimeter"
+        android:text="@string/area"
+        android:textSize="15sp" />
+    
+   <TextView
+        android:id="@+id/areaValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:textIsSelectable="true"
+        android:layout_below="@+id/perimeterValue"
+        android:layout_toRightOf="@+id/area"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_alignTop="@+id/areaValue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:gravity="center"
+        android:text="@string/calculate"
+        android:textSize="15sp" />
+         
+</RelativeLayout>
+</ScrollView>

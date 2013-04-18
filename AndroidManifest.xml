@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.coep.geometryisfun"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="10" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.coep.geometryisfun.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.DisplayGeometryObjects"
+            android:label="@string/title_activity_display_geometry_objects"
+            android:parentActivityName="org.coep.geometryisfun.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.coep.geometryisfun.MainActivity" />
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.DisplayCirlce"
+            android:label="@string/title_activity_display_cirlce"
+            android:parentActivityName="org.coep.geometryisfun.DisplayGeometryObjects" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.coep.geometryisfun.DisplayGeometryObjects" />
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.DisplayCircle"
+            android:label="@string/title_activity_display_circle"
+            android:parentActivityName="org.coep.geometryisfun.DisplayGeometryObjects" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.coep.geometryisfun.DisplayGeometryObjects" />
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.DisplayTriangle"
+            android:label="@string/title_triangle"
+            android:parentActivityName="org.coep.geometryisfun.DisplayGeometryObjects" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.coep.geometryisfun.DisplayGeometryObjects" />
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.DisplayIsocelessTriangle"
+            android:label="@string/title_activity_display_isoceless_triangle"
+            android:parentActivityName="org.coep.geometryisfun.DisplayGeometryObjects" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.coep.geometryisfun.DisplayGeometryObjects" />
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.DisplayEquilateralTriangle"
+            android:label="@string/title_activity_display_equilateral_triangle"
+            android:parentActivityName="org.coep.geometryisfun.DisplayGeometryObjects" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.coep.geometryisfun.DisplayGeometryObjects" />
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.DisplayParallelogram"
+            android:label="@string/title_activity_display_parallelogram" >
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.DisplayParallelogramNew"
+            android:label="@string/title_activity_display_parallelogram_new"
+            android:parentActivityName="org.coep.geometryisfun.DisplayGeometryObjects" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.coep.geometryisfun.DisplayGeometryObjects" />
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.DisplayRectangle"
+            android:label="@string/title_activity_display_rectangle"
+            android:parentActivityName="org.coep.geometryisfun.DisplayGeometryObjects" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.coep.geometryisfun.DisplayGeometryObjects" />
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.DisplaySquare"
+            android:label="@string/title_activity_display_square"
+            android:parentActivityName="org.coep.geometryisfun.DisplayGeometryObjects" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.coep.geometryisfun.DisplayGeometryObjects" />
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.DisplayRhombus"
+            android:label="@string/title_activity_display_rhombus"
+            android:parentActivityName="org.coep.geometryisfun.DisplayGeometryObjects" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.coep.geometryisfun.DisplayGeometryObjects" />
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.DisplayCone"
+            android:label="@string/title_activity_display_cone"
+            android:parentActivityName="org.coep.geometryisfun.DisplayGeometryObjects" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.coep.geometryisfun.DisplayGeometryObjects" />
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.DisplayCylender"
+            android:label="@string/title_activity_display_cylender"
+            android:parentActivityName="org.coep.geometryisfun.DisplayGeometryObjects" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.coep.geometryisfun.DisplayGeometryObjects" />
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.DisplaySphere"
+            android:label="@string/title_activity_display_sphere"
+            android:parentActivityName="org.coep.geometryisfun.DisplayGeometryObjects" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.coep.geometryisfun.DisplayGeometryObjects" />
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.CircleImage"
+            android:label="@string/title_activity_circle_image" >
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.CircleFormula"
+            android:label="@string/title_activity_circle_formula" >
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.CircleCalculations"
+            android:label="@string/title_activity_circle_calculations" >
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.Hello"
+            android:label="@string/title_activity_hello" >
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.TriangleFormula"
+            android:label="@string/title_activity_triangle_formula" >
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.TriangleCalculations"
+            android:label="@string/title_activity_triangle_calculations" >
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.DisplayCircleConcepts"
+            android:label="@string/title_activity_display_circle_concepts"
+            android:parentActivityName="org.coep.geometryisfun.DisplayCircle" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.coep.geometryisfun.DisplayCircle" />
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.DisplayCylenderConcepts"
+            android:label="@string/title_activity_display_cylender_concepts"
+            android:parentActivityName="org.coep.geometryisfun.DisplayCylender" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.coep.geometryisfun.DisplayCylender" />
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.DisplayTriangleConcepts"
+            android:label="@string/title_activity_display_triangle_concepts"
+            android:parentActivityName="org.coep.geometryisfun.DisplayTriangle" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.coep.geometryisfun.DisplayTriangle" />
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.DisplayParallelogramConcepts"
+            android:label="@string/title_activity_display_parallelogram_concepts"
+            android:parentActivityName="org.coep.geometryisfun.DisplayParallelogramNew" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.coep.geometryisfun.DisplayParallelogramNew" />
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.DisplayRectanlgeConcepts"
+            android:label="@string/title_activity_display_rectanlge_concepts"
+            android:parentActivityName="org.coep.geometryisfun.DisplayRectangle" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.coep.geometryisfun.DisplayRectangle" />
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.DisplaySphereConcepts"
+            android:label="@string/title_activity_display_sphere_concepts"
+            android:parentActivityName="org.coep.geometryisfun.DisplaySphere" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.coep.geometryisfun.DisplaySphere" />
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.DisplayConeConcepts"
+            android:label="@string/title_activity_display_cone_concepts"
+            android:parentActivityName="org.coep.geometryisfun.DisplayCone" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.coep.geometryisfun.DisplayCone" />
+        </activity>
+        <activity
+            android:name="org.coep.geometryisfun.ContactUs"
+            android:label="@string/title_activity_contact_us"
+            android:parentActivityName="org.coep.geometryisfun.DisplayGeometryObjects" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.coep.geometryisfun.DisplayGeometryObjects" />
+        </activity>
+    </application>
+
+</manifest>

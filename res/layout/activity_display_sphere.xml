@@ -1,0 +1,56 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+
+<RelativeLayout
+    android:baselineAligned="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+      <ImageView
+          android:id="@+id/sphere_image"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:layout_alignBottom="@+id/sphere_formula"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:contentDescription="@string/des"
+          android:src="@drawable/sphere" >
+ </ImageView>
+
+      <fragment
+          android:id="@+id/sphere_formula"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:layout_toRightOf="@+id/sphere_image"
+          class="org.coep.geometryisfun.SphereFormula" >
+ </fragment>
+
+      <fragment
+          android:id="@+id/sphere_calculation"
+          android:layout_width="143dp"
+          android:layout_height="277dp"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentRight="true"
+          android:layout_below="@+id/button1"
+          class="org.coep.geometryisfun.SphereCalculations" >
+
+ </fragment>
+
+      <Button
+          android:id="@+id/button1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="100dp"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/sphere_image"
+          android:gravity="center"
+          android:onClick="callSphereConcepts"
+          android:text="@string/getConcepts" />
+      
+</RelativeLayout>
+</ScrollView>

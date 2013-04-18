@@ -1,0 +1,32 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TriangleFormula" >
+
+    <TextView
+        android:id="@+id/parea"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/paraarea" />
+       
+     <TextView
+        android:id="@+id/pperimeter"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/paraperimeter" 
+        android:layout_below="@+id/parea"
+        android:layout_gravity="center_vertical|center_horizontal"/>
+
+</RelativeLayout>
+</ScrollView>

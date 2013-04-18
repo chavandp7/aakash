@@ -1,0 +1,57 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+      <ImageView
+          android:id="@+id/cone_image"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:layout_above="@+id/button1"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:contentDescription="@string/des"
+          android:src="@drawable/cone" >
+
+ </ImageView>
+
+      <fragment
+          android:id="@+id/cone_formula"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:layout_above="@+id/button1"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:layout_toRightOf="@+id/cone_image"
+          class="org.coep.geometryisfun.ConeFormula" >
+
+ </fragment>
+
+      <fragment
+          android:id="@+id/cone_calculation"
+          android:layout_width="143dp"
+          android:layout_height="277dp"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentRight="true"
+          class="org.coep.geometryisfun.ConeCalculations" >
+ </fragment>
+
+      <Button
+          android:id="@+id/button1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="60dp"
+          android:layout_marginRight="60dp"
+          android:layout_above="@+id/cone_calculation"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentRight="true"
+          android:gravity="center"
+          android:onClick="callConeConcepts"
+          android:text="@string/getConcepts"
+          android:textSize="15sp" />
+      
+</RelativeLayout>
+

@@ -1,0 +1,57 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+
+<RelativeLayout
+    android:baselineAligned="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+      <ImageView
+          android:id="@+id/triangle_image"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:layout_alignBottom="@+id/triangle_formula"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:contentDescription="@string/des"
+          android:src="@drawable/triangleimage" >
+ </ImageView>
+
+      <fragment
+          android:id="@+id/triangle_formula"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:layout_toRightOf="@+id/triangle_image"
+          class="org.coep.geometryisfun.TriangleFormula" >
+ </fragment>
+
+      <fragment
+          android:id="@+id/triangle_calculation"
+          android:layout_width="143dp"
+          android:layout_height="277dp"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentRight="true"
+          android:layout_below="@+id/button1"
+          class="org.coep.geometryisfun.TriangleCalculations" >
+
+ </fragment>
+
+      <Button
+          android:id="@+id/button1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="100dp"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/triangle_image"
+          android:gravity="center"
+          android:text="@string/getConcepts"
+          android:onClick="callTriangleConcepts"
+          android:textSize="15sp" />
+      
+</RelativeLayout>
+</ScrollView>

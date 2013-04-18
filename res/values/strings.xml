@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Geometry Is Fun</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="opening_message"><p>	    The word geometry is Greek for geos - meaning earth and metron - meaning measure. Geometry was extremely important to ancient societies and was used for surveying, astronomy, navigation, and building. Geometry, as we know it is actually known as Euclidean geometry which was written well over 2000 years ago in Ancient Greece by Euclid, Pythagoras, Thales, Plato and Aristotle just to mention a few. The most fascinating and accurate geometry text was written by Euclid, and was called Elements. Euclid\'s text has been used for over 2000 years!</p>\n\n<p>	    Geometry is the study of angles and triangles, perimeter, area and volume. It differs from algebra in that one develops a logical structure where mathematical relationships are proved and applied.<br /></p>\n</string>
+    <string name="main_button">Discover</string>
+    <string name="title_activity_display_geometry_objects">Geometry Objects</string>
+    <string name="object_circle">Circle</string>
+    <string name="object_triangle">Triangle</string>
+    <string name="object_isoceless_triangle">Isoceless Triangle</string>
+    <string name="object_equilateral_triangle">Equilateral Triangle</string>
+    <string name="object_parallelogram">Parallelogram</string>
+    <string name="object_rectangle">Rectangle</string>
+    <string name="object_square">Square</string>
+    <string name="object_rhombus">Rhombus</string>
+    <string name="object_cone">Cone</string>
+    <string name="object_cylender">Cylinder</string>
+    <string name="object_sphere">Sphere</string>
+    <string name="title_activity_display_cirlce">Cirlce</string>
+    <string name="title_activity_display_circle">Circle</string>
+    <string name="title_triangle">Triangle</string>
+    <string name="title_activity_display_isoceless_triangle">Isoceless Triangle</string>
+    <string name="title_activity_display_equilateral_triangle">Equilateral Triangle</string>
+    <string name="title_activity_display_parallelogram">Parallelogram</string>
+    <string name="title_activity_display_parallelogram_new">Parallelogram</string>
+    <string name="title_activity_display_rectangle">Rectangle</string>
+    <string name="title_activity_display_square">Square</string>
+    <string name="title_activity_display_rhombus">Rhombus</string>
+    <string name="title_activity_display_cone">Cone</string>
+    <string name="title_activity_display_cylender">Cylinder</string>
+    <string name="title_activity_display_sphere">Sphere</string>
+    <string name="title_activity_circle_image">Circle Image</string>
+    <string name="des">Its a COPY RIGHT FREE Image</string>
+    <string name="title_activity_circle_formula">Circle Formule</string>
+    <string name="title_activity_circle_calculations">Circle Calculations</string>
+    <string name="title_activity_hello">Hello</string>
+    <string name="press_to_update">Update</string>
+    <string name="getConcepts">Get Concepts</string>
+    <string name="calculate">Calculate</string>
+    <string name="area">Area       = </string>
+    <string name="perimeter">Perimeter =</string>
+    <string name="volume">Volume     =</string>
+    <string name="radius">Radius</string>
+    <string name="enterRadius">Enter Radius in cm</string>
+    <string name="cm">cm</string>
+    <string name="cm2">sq.cm</string>
+    <string name="cbc">cubic cm</string>
+    <string name="circlearea">Area  =  π × r × r </string>
+    <string name="circleperimeter">Circumference = 2 × π × r </string>
+    <string name="title_activity_triangle_formula">Triangle</string>
+    <string name="title_activity_triangle_calculations">Triangle</string>
+    <string name="trianglearea">Area  =  Square root of[s(s-a)(s-b)(s-c)] where s = (a+b+c)/2 </string>
+    <string name="triangleperimeter">Perimeter = a + b + c </string>
+    <string name="a">a</string>
+    <string name="b">b</string>
+    <string name="c">c</string>
+    <string name="enterA">Enter a in cm</string>
+    <string name="enterB">Enter b in cm</string>
+    <string name="enterC">Enter c in cm</string>
+    <string name="conevolume">Volume              = (π x r x r x h) / 3</string>
+    <string name="conecurved">Curved Surface Area = (π x r x r x l)</string>
+    <string name="conetotal">Total Surface Area = πr x (r + l)</string>
+    <string name="r">r</string>
+    <string name="h">h</string>
+    <string name="l">l</string>
+    <string name="volum">Volume       = </string>
+    <string name="carea">Curved Area =</string>
+    <string name="tarea">Total Area =</string>
+    <string name="enterR">Enter r in cm</string>
+    <string name="enterH">Enter h in cm</string>
+    <string name="enterL">Enter l in cm</string>
+    <string name="spherevolume">Volume = (4 x π x r x r x r)/3 </string>
+    <string name="surface">Surface Area = 4 x π x r x r </string>
+    <string name="sphvol">Volume =  </string>
+    <string name="sparea">Surface Area =  </string>
+    <string name="cylindervolume">Volume              = (π x r x r x h)</string>
+    <string name="cylindercurved">Curved Surface Area = (2x π x r x h)</string>
+    <string name="cylindertotal">Total Surface Area = 2πr x (r + h)</string>
+    <string name="paraarea">Area  =  b x h </string>
+    <string name="paraperimeter">Perimeter = 2 x (a + b) </string>
+    <string name="entertheta">Enter 0 in Radians</string>
+    <string name="theta">0</string>
+    <string name="rectanglearea">Area  =  a x b </string>
+    <string name="rectangleperimeter">Perimeter = 2 x (a + b) </string>
+    <string name="title_activity_display_circle_concepts">Circle Concepts</string>
+    <string name="circumference">Circumference</string>
+    <string name="Circle_Concepts"><b><u>Arc:</u></b> any connected part of the circle\'s circumference.\n\n<b><u>Centre:</u></b> the point equidistant from the points on the circumference.\n\n<b><u>Chord:</u></b> a line segment whose endpoints lie on the circle.\n\n<b><u>Circumference:</u></b> the length of one circuit along the circle.\n\n<b><u>Diameter:</u></b> the longest chord, a line segment whose endpoints lie on the circle and which passes through the centre; or the length of such a segment, which is the largest distance between any two points on the circle.\n\n<b><u>Radius:</u></b> a line segment joining the centre of the circle to any point on the circle itself; or the length of such a segment, which is half a diameter.\n\n<b><u>Secant:</u></b> an extended chord, a straight line cutting the circle at two points.\n\n<b><u>Sector:</u></b> a region bounded by two radii and an arc lying between the radii.\n\n<b><u>Segment:</u></b> a region bounded by a chord and an arc lying between the chord\'s endpoints.\n\n<b><u>Semicircle:</u></b> a region bounded by a diameter and an arc lying between the diameter\'s endpoints. It is a special case of a segment.\n\n<b><u>Tangent:</u></b> a straight line that touches the circle at a single point.\n\n</string>
+    <string name="title_activity_display_cylender_concepts">Cylinder Concepts</string>
+    <string name="title_activity_display_triangle_concepts">Triangle Concepts</string>
+    <string name="title_activity_display_parallelogram_concepts">Parallelogram Concepts</string>
+    <string name="title_activity_display_rectanlge_concepts">Rectanlge Concepts</string>
+    <string name="title_activity_display_sphere_concepts">Sphere Concepts</string>
+    <string name="title_activity_display_cone_concepts">Cone Concepts</string>
+    <string name="Triangle_Concepts"><b><u>Triangle</u></b> A triangle is a simple closed curve made of three line segments. Triangle has three vertices,three sides and three angles.\n\nTriangles classified by their sides:\n<b><u>Scalene triangle:</u></b> A scalene triangle is a triangle that has no equal sides.\n\n<b><u>Isosceles triangle: </u></b> An isosceles triangle is a triangle that has two equal sides.\n\n <b><u>Equilateral triangle: </u></b> An equilateral triangle is a triangle that has three equal sides.\n\nTriangles classify by their angles:\n<b><u>Right triangle: </u></b>A right triangle has a 90 degrees angle.\n\n<b><u>Obtuse triangle: </u></b>An obtuse triangle has one angle that is bigger than 90 degrees (Obtuse angle).\n\n<b><u>Acute triangle: </u></b>In an acute triangle, all angle are less than 90 degrees, so all angles are acute angles.\n\n<b><u>Angle Sum Property :</u></b> The measure of three angles of a triangle is 180°\n\n<b><u>Exterior Angle Property :</u></b> In a triangle the measure of an exterior angle equals the sum of the measures of the remote interior angles.\n\n<b><u>Triangle Inequality : </u></b>The sum of lengths of any two sides of a triangle is greater than the length of the third side.\n\n</string>
+    <string name="Parallelogram_Concepts"><b><u>Rhomboid : </u></b>A quadrilateral whose opposite sides are parallel and adjacent sides are unequal, and whose angles are not right angles.\n\n<b><u>Rectangle : </u></b>A parallelogram with four angles of equal size.\n\n<b><u>Rhombus : </u></b>A parallelogram with four sides of equal length.\n\n<b><u>Square : </u></b>A parallelogram with four sides of equal length and angles of equal size (right angles).\n\n<b><u>Diagonals </u></b>of a parallelogram bisect each other.\nOpposite sides of a parallelogram are parallel (by definition) and so will never intersect.\n\nThe area of a parallelogram is twice the area of a triangle created by one of its diagonals.\n\nThe area of a parallelogram is also equal to the magnitude of the vector cross product of two adjacent sides.\n\nAny line through the midpoint of a parallelogram bisects the area.\n\nAny non-degenerate affine transformation takes a parallelogram to another parallelogram.\n</string>
+    <string name="Rectangle_Concepts">A <b><u>Rectangle</u></b> is a special case of a parallelogram in which each pair of adjacent sides is perpendicular.\n\nA rectangle is <b><u>cyclic:</u></b> all corners lie on a single circle.\n\nIt is <b><u>equiangular:</u></b> all its corner angles are equal (each of 90 degrees).\n\nThe two diagonals are equal in length and bisect each other. Every quadrilateral with both these properties is a rectangle.\n\nA rectangle is <b><u>rectilinear: </u></b>its sides meet at right angles.\n\nWith vertices denoted A, B, C, and D, for any point P on the same plane of a rectangle:\n<b>(AP)² + (CP)² = (BP)² + (DP)²</b></string>
+    <string name="Cone_Concepts">A <b><u>Cone</u></b> is an n-dimensional geometric shape that tapers smoothly from a base (usually flat and circular) to a point called the apex or vertex.\n\nThe <b><u>axis of a cone</u></b> is the straight line, passing through the apex, about which the base has a rotational symmetry.\n\nCones are assumed to be <b><u>right circular, </u></b>where right means that the axis passes through the centre of the base (suitably defined) at right angles to its plane, and circular means that the base is a circle.\n\nThe <b>base radius </b>of a circular cone is the radius of its base; often this is simply called the <b>radius </b>of the cone. The <b>Aperture </b>of a right circular cone is the maximum angle between two generatrix lines; if the generatrix makes an angle <b>θ </b>to the axis, the aperture is <b>2θ</b>.\n\nA cone with its apex cut off by a plane is called a <b>Truncated cone</b>; if the truncation plane is parallel to the cone\'s base, it is called a frustum. An <b>Elliptical cone </b>is a cone with an elliptical base. A <b>Generalized cone </b> is the surface created by the set of lines passing through a vertex and every point on a boundary.\n\nThe <b><u>Center of mass </u></b>of a conic solid of uniform density lies one-quarter of the way from the center of the base to the vertex, on the straight line joining the two.</string>
+    <string name="Cylender_Concepts">A <b><u>Cylinder </u></b>is a closed solid that has two parallel (usually circular) bases connected by a curved surface.\n\nCylender has two ends called <b>Bases</b>.The bases are always congruent and parallel to each other.\n\nThe <b>height h </b>is the perpendicular distance between the bases. It is important to use the perpendicular height (or altitude) when calculating the volume of an oblique cylinder.\n\nThe <b>radius r </b>of a cylinder is the radius of a base. If you are given the diameter instead, remember to halve it.\n\nAxis is a line joining the center of each base.\n\nWhen the two bases are exactly over each other and the axis is a right angles to the base, this is a called a <b>right cylinder.</b>\n\nIf one base is displaced sideways, the axis is not at right angles to the bases and the result is called an <b>oblique cylinder. </b>The bases, although not directly over each other, are still parallel.\n\n</string>
+    <string name="Sphere_Concepts"><b><u>Sphere </u></b>is a solid bounded by closed surface every point of which is equidistant from a fixed point called the center.\n\n<b><u>Properties of a Sphere : </u></b>\n\nEvery section in the sphere made by a cutting plane is a circle. If the cutting plane passes through the center of the sphere, the section made is a great circle; otherwise the section is a small circle.\n\nFor a particular circle of a sphere, the <b>axis </b>is the diameter of the sphere perpendicular to the plane of the circle.\n\nThe ends of the axis of the circle of a sphere are called <b>poles.</b>\n\nThe nearer the circle to the center of the sphere, the greater is its area.\n\nThe largest circle in the sphere is the <b>great circle.</b>\n\nThe radius (diameter) of the great circle is the <b>radius (diameter) of the sphere</b>.\n\nAll great circles of a sphere are equal.\n\nEvery great circle divides the sphere into two equal parts called <b>hemispheres</b>\n\nThe intersection of two spherical surfaces is a circle whose plane is perpendicular to the line joining the centers of the surfaces and whose center is on that line.\n\nA plane perpendicular to a radius at its extremity is tangent to the sphere.\n\n</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="title_activity_contact_us">ContactUs</string>
+    <string name="contactusus"><b>Dnyaneshwar Chavan</b>\nchavandp7@gmail.com\n\n<b>Sujay Gaikwad</b>\nsujay.gaikwad@gmail.com\n\n</string>
+
+</resources>

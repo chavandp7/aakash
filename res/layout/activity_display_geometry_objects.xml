@@ -1,0 +1,82 @@
+
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+  <Button
+        android:id="@+id/object_circle"
+        android:layout_width="150dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="@string/object_circle" 
+        android:onClick="callCircle"/>
+  
+   <Button
+        android:id="@+id/object_triangle"
+        android:layout_width="150dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="@string/object_triangle" 
+        android:onClick="callTriangle"/>
+   
+       <Button
+		    android:id="@+id/object_parallelogram"
+		    android:layout_width="150dp"
+		    android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical|center_horizontal"
+		    android:text="@string/object_parallelogram" 
+		    android:onClick="callParallelogram"/>
+       
+        <Button
+	        android:id="@+id/object_rectangle"
+	        android:layout_width="150dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical|center_horizontal"
+	        android:text="@string/object_rectangle" 
+	        android:onClick="callRectangle"/>
+        
+        <Button
+	        android:id="@+id/object_cone"
+	        android:layout_width="150dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical|center_horizontal"
+	        android:text="@string/object_cone" 
+	        android:onClick="callCone"/>
+        <Button
+	        android:id="@+id/object_cylender"
+	        android:layout_width="150dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical|center_horizontal"
+	        android:text="@string/object_cylender" 
+	        android:onClick="callCylender"/>
+        
+         <Button
+	        android:id="@+id/object_sphere"
+	        android:layout_width="150dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical|center_horizontal"
+	        android:text="@string/object_sphere" 
+	        android:onClick="callSphere"/>
+         
+          <Button
+	        android:id="@+id/contact"
+	        android:layout_width="150dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical|center_horizontal"
+	        android:text="@string/contact_us" 
+	        android:onClick="Contactus"/>
+    
+    
+</LinearLayout>

@@ -1,0 +1,40 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ConeFormula" >
+
+    <TextView
+        android:id="@+id/clvolume"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/cylindervolume" />
+
+        <TextView
+            android:id="@+id/clcurved"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_alignLeft="@+id/clvolume"
+            android:layout_alignTop="@+id/clvolume"
+            android:layout_marginTop="33dp"
+            android:text="@string/cylindercurved" />
+
+        <TextView
+            android:id="@+id/cltotal"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_alignLeft="@+id/clcurved"
+            android:layout_below="@+id/clvolume"
+            android:text="@string/cylindertotal" />
+
+</RelativeLayout>
+</ScrollView>
